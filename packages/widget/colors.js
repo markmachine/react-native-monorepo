@@ -1,0 +1,14 @@
+export const BLUE = '#6ec7f1';
+export const GRAY = '#838383';
+export const RED = '#ef7074';
+export const LIGHT_RED = '#FACAC8';
+export const WHITE = '#ffffff';
+export const BLACK = '#1f1f1f';
+export const LIGHT_GRAY = '#e5e5e5';
+export const LIGHTER_GRAY = '#f4f4f4';
+export const DARK_GRAY = '#4a4a4a';
+export const MED_GRAY = '#1F1F1F';
+export const ICON_BLUE = '#3ea9da';
+export const ICON_GRAY = '#cccccc';
+export const DISABLED = '#dddddd';
+export const ICON_GOLD = '#A79870';

@@ -1,0 +1,27 @@
+{
+  "name": "mobileweb",
+  "private": true,
+  "devDependencies": {
+    "lerna": "^2.11.0",
+    "metro-with-symlinks": "^1.0.12"
+  },
+  "scripts": {
+    "bootstrap": "lerna bootstrap --use-workspaces",
+    "symlinks": "lerna exec  --use-workspaces --scope mobiledemo metro-with-symlinks",
+    "clean": "lerna clean --yes",
+    "test": "lerna exec npm test",
+    "test:update": "lerna exec 'npm test -- -u'",
+    "watch": "lerna run watch --parallel"
+  },
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ],
+    "nohoist": [
+    "**/react-native",
+    "**/react-native/**",
+    "mobiledemo/react-native-*",
+    "mobiledemo/react-native-*/**"
+    ]
+  }
+}

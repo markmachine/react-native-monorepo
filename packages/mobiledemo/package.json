@@ -1,0 +1,28 @@
+{
+  "name": "mobiledemo",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "ios": "react-native run-ios",
+    "test": "jest"
+  },
+  "dependencies": {
+    "crna-make-symlinks-for-yarn-workspaces": "^1.0.1",
+    "get-yarn-workspaces": "^1.0.2",
+    "metro-bundler-config-yarn-workspaces": "^1.0.3",
+    "react": "16.3.1",
+    "react-native": "0.55.4",
+    "widget": "^1.0.0"
+  },
+  "devDependencies": {
+    "babel-jest": "23.2.0",
+    "babel-preset-react-native": "4.0.0",
+    "jest": "23.2.0",
+    "metro-bundler-config-yarn-workspaces": "^1.0.3",
+    "react-test-renderer": "16.3.1"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}

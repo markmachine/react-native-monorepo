@@ -1,0 +1,21 @@
+{
+  "private": true,
+  "name": "widget",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 0"
+  },
+  "peerDependencies": {
+    "react": "16.3.1",
+    "react-native": "0.55.4"
+  },
+  "dependencies": {
+    "entities": "^1.1.1",
+    "prop-types": "15.x.x",
+    "react-native-vector-icons": "4.x.x"
+  },
+  "author": "",
+  "license": "ISC"
+}
