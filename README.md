@@ -1,14 +1,12 @@
 # react-native-monorepo
 
-##### testing rebase #2
-
 monorepo project with react-native and modules
 
 
-this is roughly based off of these yarn workspaces nohois examples:
+This is roughly based off of these yarn workspaces nohois examples and includes a demo using an example React-Native project with a sample widget in a shared monorepo
 
 
-[yarn - nohois](https://yarnpkg.com/blog/2018/02/15/nohoist/)
+[yarn - nohoiss](https://yarnpkg.com/blog/2018/02/15/nohoist/)
 
 [yarn-nohoist-examples](https://github.com/connectdotz/yarn-nohoist-examples)
 
